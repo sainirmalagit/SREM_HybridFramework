@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="false">
+
+	<groups>
+		<run>
+			<!-- <include name="Sanity" /> -->
+			<!-- <include name="Regression" /> -->
+			 <include name="Master" />
+			<!-- <exclude name="DataDriven" /> -->
+		</run>
+	</groups>
+	
+	<listeners>
+		<listener class-name="Utilities.ExtentReportManager" />
+	</listeners>
+	
+	<test name="Test">
+		<parameter name="os" value="Windows" />
+		<parameter name="browser" value="chrome" />
+		<classes>
+		    <class name="testCases.TC_AccountRegistration_Test" /> 
+			<class name="testCases.TC_Login_Test" />
+			<!--  <class name="testCases.TC_LoginTest_DDT" /> -->
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
