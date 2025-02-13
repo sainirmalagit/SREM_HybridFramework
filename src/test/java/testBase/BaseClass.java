@@ -90,7 +90,7 @@ public class BaseClass{
 			
 			}
 			
-			driver=new RemoteWebDriver(new URL("  http://192.168.1.39:4444/wd/hub"),campabilities);
+			driver=new RemoteWebDriver(new URL(" http://192.168.1.47:4444/wd/hub"),campabilities);
 			
 		}
 		

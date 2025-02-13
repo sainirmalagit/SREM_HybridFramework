@@ -198,3 +198,15 @@
 2025-02-03 14:50:32 [main] INFO  testCases.TC_AccountRegistration_Test - ********** driver is initiating *********
 2025-02-03 14:50:32 [main] INFO  testCases.TC_AccountRegistration_Test - ********** driver is initiating *********
 2025-02-03 14:50:53 [main] INFO  testCases.TC_AccountRegistration_Test - ********** Student Registred successfully.*********
+2025-02-11 12:36:12 [main] INFO  testCases.TC_AccountRegistration_Test - ********** driver is initiating *********
+2025-02-11 12:36:12 [main] INFO  testCases.TC_AccountRegistration_Test - ********** driver is initiating *********
+2025-02-11 12:36:34 [main] INFO  testCases.TC_AccountRegistration_Test - ********** Student Registred successfully.*********
+2025-02-11 12:38:05 [main] INFO  testCases.TC_AccountRegistration_Test - ********** driver is initiating *********
+2025-02-11 12:38:06 [main] INFO  testCases.TC_AccountRegistration_Test - ********** driver is initiating *********
+2025-02-11 12:38:27 [main] INFO  testCases.TC_AccountRegistration_Test - ********** Student Registred successfully.*********
+2025-02-11 12:54:26 [main] INFO  testCases.TC_AccountRegistration_Test - ********** driver is initiating *********
+2025-02-11 12:54:26 [main] INFO  testCases.TC_AccountRegistration_Test - ********** driver is initiating *********
+2025-02-11 12:54:47 [main] INFO  testCases.TC_AccountRegistration_Test - ********** Student Registred successfully.*********
+2025-02-12 16:07:47 [main] INFO  testCases.TC_AccountRegistration_Test - ********** driver is initiating *********
+2025-02-12 16:07:47 [main] INFO  testCases.TC_AccountRegistration_Test - ********** driver is initiating *********
+2025-02-12 16:08:09 [main] INFO  testCases.TC_AccountRegistration_Test - ********** Student Registred successfully.*********
