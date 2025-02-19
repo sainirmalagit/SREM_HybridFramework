@@ -219,3 +219,16 @@
 2025-02-19 15:20:48 [main] INFO  testCases.TC_AccountRegistration_Test - ********** driver is initiating *********
 2025-02-19 15:20:49 [main] INFO  testCases.TC_AccountRegistration_Test - ********** driver is initiating *********
 2025-02-19 15:21:10 [main] INFO  testCases.TC_AccountRegistration_Test - ********** Student Registred successfully.*********
+2025-02-19 16:12:23 [main] INFO  testCases.TC_AccountRegistration_Test - ********** driver is initiating *********
+2025-02-19 16:12:24 [main] INFO  testCases.TC_AccountRegistration_Test - ********** driver is initiating *********
+2025-02-19 16:12:46 [main] INFO  testCases.TC_AccountRegistration_Test - ********** Student Registred successfully.*********
+2025-02-19 16:14:08 [main] INFO  testCases.TC_AccountRegistration_Test - ********** driver is initiating *********
+2025-02-19 16:14:08 [main] INFO  testCases.TC_AccountRegistration_Test - ********** driver is initiating *********
+2025-02-19 16:14:30 [main] INFO  testCases.TC_AccountRegistration_Test - ********** Student Registred successfully.*********
+2025-02-19 16:17:52 [main] INFO  testCases.TC_AccountRegistration_Test - ********** driver is initiating *********
+2025-02-19 16:17:53 [main] INFO  testCases.TC_AccountRegistration_Test - ********** driver is initiating *********
+2025-02-19 16:18:15 [main] INFO  testCases.TC_AccountRegistration_Test - ********** Student Registred successfully.*********
+2025-02-19 16:18:20 [main] ERROR testCases.TC_AccountRegistration_Test - ******** Test Failed*********
+2025-02-19 16:20:17 [main] INFO  testCases.TC_AccountRegistration_Test - ********** driver is initiating *********
+2025-02-19 16:20:17 [main] INFO  testCases.TC_AccountRegistration_Test - ********** driver is initiating *********
+2025-02-19 16:20:39 [main] INFO  testCases.TC_AccountRegistration_Test - ********** Student Registred successfully.*********

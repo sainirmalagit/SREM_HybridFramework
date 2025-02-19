@@ -52,7 +52,10 @@ public class AccountRegistration extends BasePage {
 	WebElement ClickonCheckbox;
 	@FindBy(xpath="//*[@value='Sign Up']") 
 	WebElement ClickonSubmit;
-
+	@FindBy(xpath="//*[@class='nav-link dropdown-toggle']")
+	WebElement click_StudentName_dropdown;
+    @FindBy(xpath="//*[text()=' My DashBoard']")
+    WebElement ClickOn_MyDashboard_Button;
 	// Action Methons for all the locaters
 	
 	public void setname(String user) {
@@ -115,6 +118,16 @@ public class AccountRegistration extends BasePage {
 	public void clickonsubmit() {
 		ClickonSubmit.click();
 	}
+	public void click_StudentName_dropdown() {
+		click_StudentName_dropdown.click();
+	}
+	
+	public void ClickOn_MyDashboard_Button() {
+		ClickOn_MyDashboard_Button.click();
+	}
+	
+	
+	
 	
 	
 	

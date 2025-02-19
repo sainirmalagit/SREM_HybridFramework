@@ -58,8 +58,12 @@ public class TC_AccountRegistration_Test extends BaseClass {
 		reg.clickonIagree();
 		Thread.sleep(1000);
 		reg.clickonsubmit();
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		logger.info("********** Student Registred successfully.*********");
+		reg.click_StudentName_dropdown();
+		Thread.sleep(2000);
+		reg.ClickOn_MyDashboard_Button();
+		Thread.sleep(2000);
 
 	
 	} catch(Exception e){
