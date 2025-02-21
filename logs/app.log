@@ -232,3 +232,6 @@
 2025-02-19 16:20:17 [main] INFO  testCases.TC_AccountRegistration_Test - ********** driver is initiating *********
 2025-02-19 16:20:17 [main] INFO  testCases.TC_AccountRegistration_Test - ********** driver is initiating *********
 2025-02-19 16:20:39 [main] INFO  testCases.TC_AccountRegistration_Test - ********** Student Registred successfully.*********
+2025-02-19 17:57:00 [main] INFO  testCases.TC_AccountRegistration_Test - ********** driver is initiating *********
+2025-02-19 17:57:00 [main] INFO  testCases.TC_AccountRegistration_Test - ********** driver is initiating *********
+2025-02-19 17:57:20 [main] INFO  testCases.TC_AccountRegistration_Test - ********** Student Registred successfully.*********

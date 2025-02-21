@@ -56,6 +56,8 @@ public class AccountRegistration extends BasePage {
 	WebElement click_StudentName_dropdown;
     @FindBy(xpath="//*[text()=' My DashBoard']")
     WebElement ClickOn_MyDashboard_Button;
+    
+    
 	// Action Methons for all the locaters
 	
 	public void setname(String user) {
