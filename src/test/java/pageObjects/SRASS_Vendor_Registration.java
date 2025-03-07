@@ -27,23 +27,23 @@ public class SRASS_Vendor_Registration extends BasePage {
 	@FindBy(id="contact_no")
 	WebElement text_contactno;
 	
-	@FindBy(id="alternet_contact_no")
-	WebElement clk_alternatenumber;
-	
 	@FindBy(id="contact_email")
-	WebElement clk_contactemail;
+	WebElement text_contactemail;
+	
+	@FindBy(id="official_address")
+	WebElement text_address;
 	
 	@FindBy(id="country")
 	WebElement clk_country;
 
-	@FindBy(id="state")
-	WebElement clk_state;
+	@FindBy(id="gst_no")
+	WebElement text_gstNo;
 	
-	@FindBy(id="district")
-	WebElement clk_district;
+	@FindBy(id="pan_no")
+	WebElement text_panNo;
 	
 	@FindBy(xpath="(//*[text()='Next Step'])[1]")
-	WebElement clk_nextstep_btn;
+	WebElement btn_nextsteps;
 	
 	
 	public void clk_regi_Btn() {
@@ -68,8 +68,25 @@ public class SRASS_Vendor_Registration extends BasePage {
 		text_contactno.sendKeys(vendormobile);
 	}
 	
-	public void clk_contactemail(String Vendoremail) {
-		clk_contactemail.sendKeys(Vendoremail);
+	public void text_contactemail(String Vendoremail) {
+		text_contactemail.sendKeys(Vendoremail);
+	}
+	
+	public void text_address(String VendorAddress) {
+		text_address.sendKeys(VendorAddress);
+	}
+	
+	public void text_gstNo(String VendorGSTNo) {
+		text_gstNo.sendKeys(VendorGSTNo);
+	}
+	
+	public void text_panNo(String VendorPANno) {
+		text_panNo.sendKeys(VendorPANno);
+	}
+	
+	public void btn_nextsteps() {
+		btn_nextsteps.click();
 	}
 
+	
 }

@@ -10,8 +10,9 @@
 		<parameter name="os" value="Windows" />
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="testCases.TC_AccountRegistration_Test" />
+			<!-- <class name="testCases.TC_AccountRegistration_Test" /> -->
 			<!--  <class name="testCases.TC_Login_Test" /> -->
+			<class name="testCases.VendorAccount_Creation" />
 			
 			<!--  <class name="testCases.TC_LoginTest_DDT" />  -->
 		</classes>
