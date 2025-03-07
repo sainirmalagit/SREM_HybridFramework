@@ -1,8 +1,18 @@
 package pageObjects;
 
-public class Leadprofile {
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class CreateLead_Leadprofile extends BasePage {
+
+	public CreateLead_Leadprofile(WebDriver driver) {
+		super(driver);
+		
+	}
 	
-	// Implement later some more code.
+	@FindBy(id="profile_contact_name")
+	WebElement leadname;
 	
 
 }
